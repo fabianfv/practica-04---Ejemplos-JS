@@ -75,3 +75,14 @@ function suma_menos_que_cien(a, b) {
 
 salida(true, suma_menos_que_cien(22, 15))
 salida(false, suma_menos_que_cien(83, 34))
+/*
+  Devolver true si num1 es igual a num2, si no devolver false
+*/
+
+function iguales(num1, num2) {
+  return num1 === num2
+}
+
+salida(false, iguales(4, 8))
+salida(true, iguales(5, 5))
+salida(false, iguales(5, "5"))
