@@ -123,3 +123,21 @@ salida("Arrr", pirata_gritando(3))
 salida("Shhh", pirata_gritando(0))
 salida("Arrrrrrr", pirata_gritando(7))
 salida("Shhh", pirata_gritando(-3))
+
+/*
+  Crear una funcion que calcule el cuadrado de un número pasado como argumento
+  y otra que calcule su y raíz cuadrada.
+*/
+
+function cuadrado_de(num) {
+  return num ** 2
+}
+
+function raiz_cuadrada_de(num) {
+  return num ** 0.5
+}
+
+salida(4, cuadrado_de(2))
+salida(5, raiz_cuadrada_de(25))
+salida(9, cuadrado_de(3))
+salida(7, raiz_cuadrada_de(49))
