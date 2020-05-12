@@ -86,3 +86,14 @@ function iguales(num1, num2) {
 salida(false, iguales(4, 8))
 salida(true, iguales(5, 5))
 salida(false, iguales(5, "5"))
+/*
+  Devolver true si num1 es menor o igual a cero, si no devolver false
+*/
+
+function menor_o_igual_a_cero(num1) {
+  return num1 <= 0
+}
+
+salida(true, menor_o_igual_a_cero(0))
+salida(false, menor_o_igual_a_cero(5))
+salida(true, menor_o_igual_a_cero(-2))
