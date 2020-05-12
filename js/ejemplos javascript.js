@@ -16,3 +16,15 @@ function suma(a, b) {
 
 salida(5, suma(2, 3))
 salida(-1, suma(2, -3))
+
+/*
+  Convertir minutos en segundos
+*/
+
+function minutos_a_segudos(minutos) {
+  return minutos * 60
+}
+
+salida(300, minutos_a_segundos(5))
+salida(180, minutos_a_segundos(3))
+salida(120, minutos_a_segundos(2))
