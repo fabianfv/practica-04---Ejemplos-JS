@@ -64,3 +64,14 @@ salida(1, resto(1, 3))
 salida(3, resto(3, 4))
 salida(-9, resto(-9, 45))
 salida(0, resto(5, 5))
+
+/*
+  Devolver true si la suma de dos números dados es menor que 100, si no devolver false
+*/
+
+function suma_menos_que_cien(a, b) {
+  return a + b < 100
+}
+
+salida(true, suma_menos_que_cien(22, 15))
+salida(false, suma_menos_que_cien(83, 34))
