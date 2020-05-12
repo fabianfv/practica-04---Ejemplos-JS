@@ -40,3 +40,15 @@ function siguiente_entero(n) {
 salida(1, siguiente_entero(0))
 salida(10, siguiente_entero(9))
 salida(-3, siguiente_entero(-2))
+
+/*
+  Devolver el area de un triángulo a partir de su base y altura
+*/
+
+function area_triangulo(base, altura) {
+  return (base * altura) / 2
+}
+
+salida(3, area_triangulo(3, 2))
+salida(14, area_triangulo(7, 4))
+salida(50, area_triangulo(10, 10))
