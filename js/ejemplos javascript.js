@@ -97,3 +97,15 @@ function menor_o_igual_a_cero(num1) {
 salida(true, menor_o_igual_a_cero(0))
 salida(false, menor_o_igual_a_cero(5))
 salida(true, menor_o_igual_a_cero(-2))
+
+/*
+  Convertir una cadena a número si es posible, si no devolver "no se puede convertir"
+*/
+
+function cadena_a_numero(cad) {
+  return Number(cad) || "no se puede convertir"
+}
+
+salida(25, cadena_a_numero("25"))
+salida("no se puede convertir", cadena_a_numero("#@!~$"))
+salida(-18, cadena_a_numero("-18"))
