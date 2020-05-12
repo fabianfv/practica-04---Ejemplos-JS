@@ -109,3 +109,17 @@ function cadena_a_numero(cad) {
 salida(25, cadena_a_numero("25"))
 salida("no se puede convertir", cadena_a_numero("#@!~$"))
 salida(-18, cadena_a_numero("-18"))
+
+/*
+  Repetir la letra "r" al final de la cadena "A" tantas veces como indique el argumento.
+  Si el argumento es menor o igual a cero, devolver "Shhh"
+*/
+
+function pirata_gritando(n) {
+  return n > 0 ? "A" + "r".repeat(n) : "Shhh"
+}
+
+salida("Arrr", pirata_gritando(3))
+salida("Shhh", pirata_gritando(0))
+salida("Arrrrrrr", pirata_gritando(7))
+salida("Shhh", pirata_gritando(-3))
