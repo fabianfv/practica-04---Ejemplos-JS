@@ -52,3 +52,15 @@ function area_triangulo(base, altura) {
 salida(3, area_triangulo(3, 2))
 salida(14, area_triangulo(7, 4))
 salida(50, area_triangulo(10, 10))
+/*
+  Devolver el resto de una división
+*/
+
+function resto(a, b) {
+  return a % b
+}
+
+salida(1, resto(1, 3))
+salida(3, resto(3, 4))
+salida(-9, resto(-9, 45))
+salida(0, resto(5, 5))
