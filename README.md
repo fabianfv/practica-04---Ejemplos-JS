@@ -1,6 +1,6 @@
 # Ejemplos simples de Javascript
 
-https://fabianfv.github.io/practica04---Ejemplos-JS/
+https://fabianfv.github.io/practica-04---Ejemplos-JS/
 
 Suma de dos números
 
